@@ -1,0 +1,47 @@
+
+.span-1-of-3{
+    width: 32%;
+    margin-right: 2%;
+}
+
+
+
+.span-1-of-3:last-child{
+    margin-right: 0;
+}
+
+
+
+.col{
+    float: left;
+    padding: 10px;
+}
+
+
+
+.span-1-of-4{
+    width: 23%;
+    margin-right: 2%;
+}
+
+
+.span-1-of-4:last-child{
+    margin-right: 0;
+}
+
+
+.row::after{
+    content: "";
+    display: table;
+    clear: both;
+}
+
+
+.span-1-of-2 {
+	width: 32.2%;
+}
+
+.span-2-of-3 {
+	width: 66.13%; 
+}
+
